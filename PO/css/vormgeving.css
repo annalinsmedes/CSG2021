@@ -24,6 +24,7 @@ body{
     font-size: 25px;
     margin-top: 1.5rem;
     line-height: 1.5 rem;
+    display: block;
 }
 
 li{
@@ -67,4 +68,5 @@ a:hover {
     background-color: rgb(235, 230, 227);
     font-size: x-large;
     color: rgb(8, 48, 66);
+    font-family: Zen Antique;
 }
