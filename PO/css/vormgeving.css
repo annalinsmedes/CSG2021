@@ -1,7 +1,7 @@
 body{
-    background-image: url(kos-island-2-1920.jpg)
+    background-image: url(kos-island-2-1920.jpg);
+    font-family: Zen Antique;
 }
-
 
 
 #sticky {
@@ -57,32 +57,31 @@ a:hover {
     display: flex;
 }
 
-#aes {
-    margin: 1.5rem;
-    margin-right: 10px;
+#aes, #aes2 {
+    margin-top: 25px;
+    margin-right: 50px;
     margin-bottom: 150px;
-    padding-left: 20px;
-    padding-bottom: 40px;
-    padding-top: 3px;
-    padding-right: 40px;
+    padding: 3px 40px 40px 20px;
     background-color: rgb(235, 230, 227);
     font-size: larger;
     color: rgb(8, 48, 66);
-    font-family: Zen Antique;
-    position: flex;
+    position: relative;
+}
+
+
+#aes2 p {
+    width: 400px;
+    height: 250px;
 }
 
 #second {
     margin: 1.5rem;
     margin-right: 200px;
     margin-bottom: 150px;
-    padding-left: 20px;
-    padding-top: 3px;
-    padding-right: 40px;
-    background-color: rgba(190, 160, 76, 0.534);
+    padding: 3px 8px 5px 8px;
+    background-color: rgba(214, 154, 23, 0.397);
     font-size: x-large;
     color: rgb(3, 8, 49);
-    font-family: Zen Antique;
     position: relative; 
     top: 470px;
     right: 740px;
@@ -93,13 +92,8 @@ a:hover {
     margin: 1.5rem;
     margin-right: 200px;
     margin-bottom: 150px;
-    padding-left: 20px;
-    padding-top: 3px;
-    padding-right: 40px;
-    background-color: rgba(190, 154, 76, 0.733);
-    font-size: x-large;
-    color: rgb(3, 8, 49);
-    font-family: Zen Antique;
+    padding: 20px 30px 20px 30px;
+    background-color: rgba(97, 168, 103, 0.733);
     position: relative; 
     top: 470px;
     right: 175px;
@@ -107,48 +101,22 @@ a:hover {
 
 #fourth {
     margin: 1.5rem;
-    margin-right: 200px;
-    margin-bottom: 150px;
-    padding-left: 20px;
-    padding-top: 3px;
-    padding-right: 40px;
-    background-color: rgba(190, 76, 95, 0.733);
-    font-size: x-large;
-    color: rgb(3, 8, 49);
-    font-family: Zen Antique;
+    background-color: rgb(170, 147, 133);
     position: relative; 
-    top: 470px;
-    right: 680px;
+    top: 450px;
+    right: 400px;
+    border: 5px solid rgb(170, 147, 133);
 }
 
 #fifth {
-    margin: 1.5rem;
-    margin-right: 200px;
-    margin-bottom: 150px;
-    padding-left: 20px;
-    padding-top: 3px;
-    padding-right: 40px;
-    background-color: rgba(167, 76, 190, 0.733);
-    font-size: x-large;
-    color: rgb(3, 8, 49);
-    font-family: Zen Antique;
-    position: relative; 
-    top: 470px;
-    right: 680px;
+    margin-top: 0px;
+    margin-left: 500px;
+    margin-bottom: 300px;
+    background-color: rgb(83, 117, 73); 
+    border: 5px solid rgb(83, 117, 73);
 }
 
 #sixth {
-    margin: 1.5rem;
-    margin-right: 0px;
-    margin-left: 10px;
-    margin-bottom: 150px;
-    padding-left: 20px;
-    padding-bottom: 40px;
-    padding-top: 3px;
-    padding-right: 40px;
-    background-color: rgb(235, 230, 227);
-    font-size: larger;
-    color: rgb(8, 48, 66);
-    font-family: Zen Antique;
-    position: flex; 
+    margin-left: 200px;
+    margin-top: 45px;
 }
