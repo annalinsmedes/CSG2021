@@ -59,14 +59,96 @@ a:hover {
 
 #aes {
     margin: 1.5rem;
-    margin-right: 200px;
+    margin-right: 10px;
     margin-bottom: 150px;
     padding-left: 20px;
     padding-bottom: 40px;
     padding-top: 3px;
     padding-right: 40px;
     background-color: rgb(235, 230, 227);
-    font-size: x-large;
+    font-size: larger;
     color: rgb(8, 48, 66);
     font-family: Zen Antique;
+    position: flex;
+}
+
+#second {
+    margin: 1.5rem;
+    margin-right: 200px;
+    margin-bottom: 150px;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-right: 40px;
+    background-color: rgba(190, 160, 76, 0.534);
+    font-size: x-large;
+    color: rgb(3, 8, 49);
+    font-family: Zen Antique;
+    position: relative; 
+    top: 470px;
+    right: 740px;
+
+}
+
+#third {
+    margin: 1.5rem;
+    margin-right: 200px;
+    margin-bottom: 150px;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-right: 40px;
+    background-color: rgba(190, 154, 76, 0.733);
+    font-size: x-large;
+    color: rgb(3, 8, 49);
+    font-family: Zen Antique;
+    position: relative; 
+    top: 470px;
+    right: 175px;
+}
+
+#fourth {
+    margin: 1.5rem;
+    margin-right: 200px;
+    margin-bottom: 150px;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-right: 40px;
+    background-color: rgba(190, 76, 95, 0.733);
+    font-size: x-large;
+    color: rgb(3, 8, 49);
+    font-family: Zen Antique;
+    position: relative; 
+    top: 470px;
+    right: 680px;
+}
+
+#fifth {
+    margin: 1.5rem;
+    margin-right: 200px;
+    margin-bottom: 150px;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-right: 40px;
+    background-color: rgba(167, 76, 190, 0.733);
+    font-size: x-large;
+    color: rgb(3, 8, 49);
+    font-family: Zen Antique;
+    position: relative; 
+    top: 470px;
+    right: 680px;
+}
+
+#sixth {
+    margin: 1.5rem;
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-bottom: 150px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-top: 3px;
+    padding-right: 40px;
+    background-color: rgb(235, 230, 227);
+    font-size: larger;
+    color: rgb(8, 48, 66);
+    font-family: Zen Antique;
+    position: flex; 
 }
